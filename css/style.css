@@ -12,17 +12,22 @@
   
   
 }
-.bg{
+.page-footer .bg{
  
   padding: 10px 10px 10px 10px;
-  background:rgb(40, 184, 83);
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
   border-radius:3px;
 
   padding-bottom: 10px;
 }
-.container
+.bg .container
 {
-  background:gray;
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
   border-radius:3px;
+}
+
+.icon
+{
+  color:white;
 }
 
