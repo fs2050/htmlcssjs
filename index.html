@@ -17,7 +17,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="css/style.css" rel="stylesheet">
     <link href="css/stylecube.css" rel="stylesheet">
     <link href="css/stylemenu.css" rel="stylesheet">
     <link href="css/media.css" rel="stylesheet">
@@ -43,7 +43,7 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark static-top" style="background: black;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">  FabioSalles  </a>
+                <a class="navbar-brand" href="#"> FabioSalles </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -110,7 +110,7 @@
             </div>
         </nav>
     </header>
-  
+
 
     <main>
 
@@ -195,26 +195,26 @@
             </button>
         </div>
 
-     <!-- FOOTER -->
-        <footer class="page-footer bg-dark">
-        <div class="bg-">
-            <div class="container">
-                <div class="row py-4 d-flex align-items-center">
-                    <div class="col-md-12 text-center">
-                        <a target="_blank" href="https://github.com/fs2050">
-                            <span class="icon">
-                                <ion-icon name="git-merge-outline"></ion-icon>
-                            </span>
-                            <a target="_blank" href="https://www.linkedin.com/in/fabio-salles-47a85988/">
+        <!-- FOOTER -->
+        <footer class="page-footer">
+            <div class="bg-">
+                <div class="container">
+                    <div class="row py-4 d-flex align-items-center">
+                        <div class="col-md-12 text-center">
+                            <a target="_blank" href="https://github.com/fs2050">
                                 <span class="icon">
-                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                    <ion-icon name="git-merge-outline"></ion-icon>
                                 </span>
+                                <a target="_blank" href="https://www.linkedin.com/in/fabio-salles-47a85988/">
+                                    <span class="icon">
+                                        <ion-icon name="logo-linkedin"></ion-icon>
+                                    </span>
+                                </a>
                             </a>
-                      </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </footer>
     </main>
 
@@ -224,12 +224,12 @@
         function activeLink() {
             list.forEach((item) =>
                 item.classList.remove('active'));
-                this.classList.add('active');
+            this.classList.add('active');
         }
 
-                list.forEach ((item) =>
-                item.addEventListener('click', activeLink));
-     
+        list.forEach((item) =>
+            item.addEventListener('click', activeLink));
+
 
     </script>
 

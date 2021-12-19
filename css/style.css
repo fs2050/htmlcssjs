@@ -3,7 +3,7 @@
 
 
 /*   footer */
-#footer
+.page-footer
 {
-  background:red;
+  background:#0f0f0d;
 }
