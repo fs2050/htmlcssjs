@@ -1,4 +1,4 @@
-body { overflow-x: hidden; overflow-Y: hidden;}
+body { overflow-x: hidden;}
 
 .navbar-toggler { background:red;}
 /* .container-fluid{background:green;} */
@@ -7,7 +7,7 @@ body { overflow-x: hidden; overflow-Y: hidden;}
 .page-footer
 {
   background:#0f0f0d;
-  height:200px;
+  max-height: 100%;
   padding:100px ;
 }
 .page-footer .bg{
