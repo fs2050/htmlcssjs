@@ -61,24 +61,10 @@
 }
 
 /*   footer */
-.page-footer
-{
-  background:#0f0f0d;
-  height:auto;
+.page-footer {
+  height: 400px;
+  background: #0f0f0d;
 
- 
-  
-  
 }
-.bg{
- 
-  padding: 10px 10px 10px 10px;
-  background:rgb(40, 184, 83);
-  border-radius:3px;
-}
-.container
-{
-  background:gray;
-  border-radius:3px;
-}
+
 
